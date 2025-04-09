@@ -1,6 +1,63 @@
 ![Feito com Django](https://img.shields.io/badge/feito%20com-Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 
-> 💡 Sistema web para coachs/mentores gerenciarem alunos com tarefas, vídeos e agendamento de reuniões.  
+> 💡 Sistema web para coachs/mentores gerenciarem alunos com tarefas, vídeos e agendamento de reuniões.
+
+---
+## 🛠️ Tecnologias Utilizadas
+O projeto `Web-Coach` foi desenvolvido com uma combinação poderosa de ferramentas modernas para garantir performance, segurança, interatividade e um código limpo e manutenível.
+
+## Back-end
+
+- 🐍 **Python & Django**: estrutura robusta e escalável para criação de aplicações web rápidas e seguras.
+
+- 🔒 `django.contrib.auth e auth.decorators`: utilizados para autenticação de usuários e proteção de rotas, garantindo que apenas usuários autorizados tenham acesso às funcionalidades da plataforma.
+
+- 📆 `datetime`: utilizada para realizar cálculos e manipulação de datas, sendo essencial nas funcionalidades de agendamento de reuniões e organização de tarefas.
+
+- 🔐 `secrets`: responsável por gerar tokens únicos e seguros para cada aluno. Foi implementada uma função personalizada com validações para evitar repetições (mesmo que a chance já seja muito baixa). A função save() também foi sobrescrita no modelo do aluno para que o token seja automaticamente atribuído ao ser criado.
+
+## 🎨 Front-end
+
+### 🧱 HTML + Tailwind CSS: estruturação visual com um sistema de utilitários altamente customizável, que oferece:
+
+- Estilo limpo, moderno e responsivo.
+
+- Desenvolvimento ágil com menos linhas de código CSS.
+
+- ⚡ `HTMX`: permite interações dinâmicas com o backend sem a necessidade de JavaScript ou formulários complexos, deixando a navegação mais fluida e interativa.
+
+- 📊 `Chart.js` (via CDN): biblioteca JavaScript utilizada para a exibição dos gráficos de pizza, trazendo informações visuais e intuitivas sobre os mentorados.
+
+- O uso via CDN torna a integração mais rápida e reduz dependências no projeto.
+
+## ✨ Benefícios do Stack
+
+- Código mais simples, organizado e eficiente.
+
+- Interface limpa e com boa experiência para o usuário.
+
+- Menor dependência de arquivos estáticos pesados.
+
+- Backend seguro e flexível, pronto para evoluir com o projeto.
+
+---
+
+## 📚 Sobre o Projeto
+
+Este projeto foi desenvolvido com o objetivo de **aprimorar conhecimentos práticos** no uso do framework **Django**, aplicando tecnologias modernas para criar um sistema **simples, dinâmico e responsivo**.  
+
+A proposta foi construir uma aplicação funcional com foco na **gestão entre coachs e seus mentorados**, servindo como uma base sólida para expandir funcionalidades e explorar novos recursos do ecossistema Django.
+
+Durante o desenvolvimento, surgiram diversas oportunidades de melhorias e ideias para o crescimento do sistema — tanto em nível técnico quanto funcional.
+
+---
+
+## 🤝 Contribuições são bem-vindas!
+
+Este repositório está **aberto para sugestões, melhorias e pull requests**!  
+Se você tem ideias para funcionalidades, melhorias de código ou até otimizações de design, fique à vontade para contribuir.
+
+> 💬 Sinta-se à vontade para abrir uma issue ou enviar um PR — toda ajuda será muito bem-vinda!
 
 ---
 
